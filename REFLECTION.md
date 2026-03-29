@@ -9,32 +9,41 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
-
+I learned that multithreading allows multiple tasks to run at the same time within one program. 
+I understood how threads are created and executed using the Runnable interface. 
+I also learned about thread states and how a thread moves between them during execution. 
+One important concept was how threads share CPU time using scheduling algorithms like Round-Robin. 
+I also learned how methods like start() and sleep() control thread behavior.
 ---
 
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
-
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
-
+The most challenging part of this assignment was modifying the existing code without breaking its original functionality. 
+It was sometimes difficult to understand how the scheduler and processes interact with each other. 
+I also found it challenging to decide where exactly to add the new features in the code. 
+Another difficulty was making sure the output is correct after each change. 
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
-
+I overcame the challenges by working step by step and not trying to do everything at once. 
+I carefully read the code multiple times to understand how it works before making changes. 
+I tested each feature separately after implementing it to make sure it works correctly. 
+When I faced errors, I checked the output and traced the problem back to the code. 
+I also used online resources to understand some concepts better. 
+Practicing and repeating the process helped me gain more confidence. 
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
 **Your Answer:**
-
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
-
+Multithreading is used in many real-world applications to improve performance and responsiveness. 
+For example, web browsers use threads to load multiple tabs at the same time. 
+Mobile applications also use threads to run background tasks without stopping the user interface. 
+In games, threads are used to handle graphics, sound, and user input simultaneously.
 ---
 
 ## Additional Reflections (Optional)
