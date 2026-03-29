@@ -58,52 +58,50 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [March 26, 2026 at 10:02 AM]
-**What I did**:  Implemented the priority feature for each process 
-
-**Details**: I generated random priority valus and displayed them when processes enter the ready queue
-
-**Challenges**:  I was not sure where to add the priority field in the code
-
-**Solution**: I added the priority variable inside the Process class and updated the constructor  
-
-**Time spent**:  2 hours
-
----
-
-### Entry 4 - [March 27, 2026 at 1:30 PM]
+### Entry 3 - []
 **What I did**: Implemented context switch counter    
 
-**Details**: I added a static counter variable and displayed the total number at the end of the simulation 
+**Details**: 
 
-**Challenges**: I was confused about when to increment the counter 
+**Challenges**: 
 
-**Solution**:  I incremented it each time a new process starts execution
+**Solution**: 
 
-**Time spent**:  1.5 hours
+**Time spent**:  
 
 ---
 
-### Entry 5 - [March 28, 2026 at 11:15 AM]
-**What I did**:  Implemented waiting time calculation and tested the program    
 
-**Details**: I tracked process creation time, calculated waiting time, and displayed results in a summary table   
+### Entry 4 - []
+**What I did**: Implemented context switch counter    
 
-**Challenges**:Calculating waiting time correctly was difficult  
+**Details**: 
 
-**Solution**: I used System.currentTimeMillis() and tested multiple times 
+**Challenges**: 
 
-**Time spent**:  2 hours
+**Solution**: 
 
+**Time spent**:  
+
+---
+
+### Entry 5 - []
+**What I did**: Implemented context switch counter    
+
+**Details**: 
+
+**Challenges**: 
+
+**Solution**: 
+
+**Time spent**:  
 ---
 
 
 ## Summary
 
-**Total time spent on assignment**: [8]
+**Total time spent on assignment**: 
 
-**Most challenging part**: The hardest part was understanding how the scheduling works step by step and making sure that the features I added did not affect the original code.
-
-**Most interesting learning**: I found it interesting to see how threads run and switch between each other, and how the CPU gives time for each process fairly.
-
-**What I would do differently next time**: Next time, I would organize my work better and review the code more carefully after each step.
+**Most challenging part**:
+**Most interesting learning**: 
+**What I would do differently next time**:
