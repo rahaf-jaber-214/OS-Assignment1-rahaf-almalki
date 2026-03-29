@@ -71,16 +71,16 @@ Document your development process as you work on the assignment. Add entries sho
 ---
 
 
-### Entry 4 - []
+### Entry 4 - [March 27, 2026 at 1:30 PM]
 **What I did**: Implemented context switch counter    
 
-**Details**: 
+**Details**: I added a static counter variable and displayed the total number at the end of the simulation 
 
-**Challenges**: 
+**Challenges**: I was confused about when to increment the counter 
 
-**Solution**: 
+**Solution**:  I incremented it each time a new process starts execution
 
-**Time spent**:  
+**Time spent**:  1.5 hours
 
 ---
 
