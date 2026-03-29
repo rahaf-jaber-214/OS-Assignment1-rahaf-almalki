@@ -84,23 +84,26 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 5 - []
-**What I did**: Implemented context switch counter    
+### Entry 5 - [March 28, 2026 at 11:15 AM]
+**What I did**:  Implemented waiting time calculation and tested the program    
 
-**Details**: 
+**Details**: I tracked process creation time, calculated waiting time, and displayed results in a summary table   
 
-**Challenges**: 
+**Challenges**:Calculating waiting time correctly was difficult  
 
-**Solution**: 
+**Solution**: I used System.currentTimeMillis() and tested multiple times 
 
-**Time spent**:  
+**Time spent**:  2 hours
+
 ---
 
 
 ## Summary
 
-**Total time spent on assignment**: 
+**Total time spent on assignment**: [8]
 
-**Most challenging part**:
-**Most interesting learning**: 
-**What I would do differently next time**:
+**Most challenging part**: The hardest part was understanding how the scheduling works step by step and making sure that the features I added did not affect the original code.
+
+**Most interesting learning**: I found it interesting to see how threads run and switch between each other, and how the CPU gives time for each process fairly.
+
+**What I would do differently next time**: Next time, I would organize my work better and review the code more carefully after each step.
