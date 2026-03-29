@@ -58,17 +58,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - []
-**What I did**: Implemented context switch counter    
+### Entry 3 - [March 25, 2026 at 12:02 PM]
+**What I did**:  Implemented the priority feature for each process    
 
-**Details**: 
+**Details**: I generated random priority values and displayed them when processes enter the ready queue  
 
-**Challenges**: 
+**Challenges**: I was not sure where to add the priority field in the code 
 
-**Solution**: 
+**Solution**:  I added the priority variable inside the Process class and updated the constructor  
 
-**Time spent**:  
-
+**Time spent**:   2 hours
 ---
 
 
