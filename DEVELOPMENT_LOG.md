@@ -32,90 +32,78 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 23, 2026 at 3:05 PM]
+**What I did**: Accessing GitHup
 
-**Details**: 
+**Details**:  Created a GitHup account using my university email
 
-**Challenges**: 
+**Challenges**:I faced difficulty downoading and installing the required program  
 
-**Solution**: 
+**Solution**: I searched for a guide online and followed step by step instructions until
 
-**Time spent**: 
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 50 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 24, 2026 at 12:02 PM]
+**What I did**:  Forked the repository 
 
-**Details**: 
+**Details**: renamed it, and added my student ID in the code 
 
-**Challenges**: 
+**Challenges**: I was confused about how to fork the repository and edit the file online 
 
-**Solution**: 
+**Solution**:  I followed the instructions in the README file and successfully updated the student ID
 
-**Time spent**: 
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 26, 2026 at 10:02 AM]
+**What I did**:  Implemented the priority feature for each process 
 
-**Details**: 
+**Details**: I generated random priority valus and displayed them when processes enter the ready queue
 
-**Challenges**: 
+**Challenges**:  I was not sure where to add the priority field in the code
 
-**Solution**: 
+**Solution**: I added the priority variable inside the Process class and updated the constructor  
 
-**Time spent**: 
+**Time spent**:  2 hours
+
+---
+
+### Entry 4 - [March 27, 2026 at 1:30 PM]
+**What I did**: Implemented context switch counter    
+
+**Details**: I added a static counter variable and displayed the total number at the end of the simulation 
+
+**Challenges**: I was confused about when to increment the counter 
+
+**Solution**:  I incremented it each time a new process starts execution
+
+**Time spent**:  1.5 hours
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 5 - [March 28, 2026 at 11:15 AM]
+**What I did**:  Implemented waiting time calculation and tested the program    
 
-**Details**: 
+**Details**: I tracked process creation time, calculated waiting time, and displayed results in a summary table   
 
-**Challenges**: 
+**Challenges**:Calculating waiting time correctly was difficult  
 
-**Solution**: 
+**Solution**: I used System.currentTimeMillis() and tested multiple times 
 
-**Time spent**: 
+**Time spent**:  2 hours
 
 ---
+
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [8]
 
-**Most challenging part**: 
+**Most challenging part**: The hardest part was understanding how the scheduling works step by step and making sure that the features I added did not affect the original code.
 
-**Most interesting learning**: 
+**Most interesting learning**: I found it interesting to see how threads run and switch between each other, and how the CPU gives time for each process fairly.
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Next time, I would organize my work better and review the code more carefully after each step.
