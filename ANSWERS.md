@@ -11,8 +11,11 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
-
+A process is an independent program that has its own memory space and resources, while a thread is a smaller unit of execution within a process. 
+Threads share the same memory which makes communication between them faster and easier. 
+Processes, on the other hand are heavier and take more time to create and manage. 
+In this assignment, threads were used because they are more efficient for simulating multiple tasks running at the same time. 
+Using threads also reduces overhead and improves performance compared to using separate processes.
 ---
 
 ## Question 2: Ready Queue Behavior
@@ -20,17 +23,17 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
-
+ it is moved back to the ready queue. 
+This allows other processes to use the CPU before it gets another turn. 
+The process will continue execution in the next cycle when it reaches the front of the queue again. 
+This behavior ensures fairness and prevents any single process from dominating the CPU time.
 Example from my output:
-```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+P1 executed for 2000 ms, remaining time: 3000 ms  
+P1 is added back to the ready queue  
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
-
+This shows that P1 used its time quantum but still had remaining work, so it was re-queued to continue later.
 ---
 
 ## Question 3: Thread States
@@ -41,15 +44,15 @@ Example from my output:
 
 [Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
-1. **New**: [When is P1 in New state?]
+1. **New**: The thread is created but has not started yet.    
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**:The thread enters this state after calling start() and is ready to run.
 
-3. **Running**: [When is P1 Running?]
+3. **Running**:  The thread is actively executing on the CPU
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+4. **Waiting**:  The thread may enter this state when sleep() is called during execution.
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**:  The thread reaches this state when it finishes execution and no longer runs
 
 ---
 
@@ -59,31 +62,29 @@ Example from my output:
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
-
+### Example 1: [Web Server ]    
 **Description**: 
-[Describe the real-world scenario or application]
+A web server handles multiple client requests at the same time.
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+It ensures that each request gets a fair share of CPU time and improves responsiveness
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Mobile Applications]
 
 **Description**: 
-[Describe the real-world scenario or application]
-
+Mobile apps run tasks like loading data and updating the user interface simultaneously
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+It allows smooth performance by switching between tasks quickly and fairly.
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. The difference between threads and processes  
+2. How Round-Robin scheduling distributes CPU time  
+3. The lifecycle of a thread   
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Thread synchronization techniques  
+2. Advanced CPU scheduling algorithms
